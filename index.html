@@ -1,9 +1,96 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Jonathan Soma's Incredible Website</title>
+    <meta charset="UTF-8">
+
+    <title>Natalie Jonas' Data Journalism Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    >
+
+    <style>
+        .title,
+        .subtitle {
+            color: var(--text-color);
+        }
+        :root {
+  --bg-color: rgb(0, 0, 0);
+  --text-color: #ffffff;
+  --link-color: #C76FB6;
+  --desc-color: #d7c0d2;
+}
+a {
+  color: var(--link-color);
+}
+      html, body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+      .desc {
+        font-size: 0.9em;
+        color: var(--desc-color);
+        margin-top: 0.4em;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Welcome to my website!</h1>
+
+  <body class="section">
+    <div class="container">
+    <h1 class="title is-3 has-text-centered"> 👾 natalie jonas' data diaries 👾</h1>
+
+    <h2 class="subtitle is-4">
+      hey, my name is natalie — contact me at
+      <a href="mailto:natalierjonas@gmail.com">natalierjonas@gmail.com</a>
+      or on my seldom-used 
+      <a href="https://bsky.app/profile/natalieejon.bsky.social" target="_blank" rel="noopener noreferrer"> bluesky
+    </a>
+    </h2>
+    <p class="ml-4">
+    plus, some of my 
+        <a href="https://muckrack.com/natalie-jonas" target="_blank" rel="noopener noreferrer">
+        written publications
+        </a>
+    </p>
+
+
+<div class="columns mt-5 is-multiline">
+
+  <div class="column is-one-third">
+    <h3 class="title is-4">
+      <a href="https://natalierjonas.github.io/FOC_NYC/" target="_blank" rel="noopener noreferrer">
+        auto-updating "flag of convenience" tracker</a>
+        <span class="tag">
+            Python(Beautiful Soup, Playwright), HTML
+        </span>
+    </h3>
+    <p class="desc">here, a site that shows maritime vessels docking in NYC that are flying known flags of convenience</p>
+  </div>
+
+  <div class="column is-one-third">
+    <h3 class="title is-4">
+      <a href="https://github.com/natalierjonas/more_pandas_proof" target="_blank" rel="noopener noreferrer">
+        some pandas in practice
+      </a>
+      <span class="tag">
+            Python(Pandas)
+        </span>
+    </h3>
+    <p class="desc">here, i play around with the pandas package on python</p>
+  </div>
+
+  <div class="column is-one-third">
+    <h3 class="title is-4">
+      <a href="https://www.datawrapper.de/_/rJIVR/?v=3" target="_blank" rel="noopener noreferrer">
+        visualization of spills in valdez, ak
+      </a>
+      <span class="tag">
+            DataWrapper, Excel
+        </span>
+    </h3>
+    <p class="desc">here, i made a chart showing oil spills in valdez, ak, through time and notable incidents</p>
+  </div>
+</div>
+
   </body>
-</html>
